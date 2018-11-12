@@ -11,8 +11,10 @@ class Student
   
   def self.create_table
     sql = <<-SQL
+      CREATE TABLE IF
     
-  def save 
+  def save
+  end
     
   
 end
