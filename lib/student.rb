@@ -38,7 +38,7 @@ class Student
         VALUES (?, ?)
         SQL
     DB[:conn].execute(sql, self.name, self.grade)
-    binding.pry
+    
     @id = DB[:conn].execute("SELECT id FROM students").flatten.first 
   end
 end
