@@ -31,6 +31,7 @@ class Student
     Student.new(name, grade).tap do |s|
       s.save
     end 
+  end 
     
   def save
     sql = <<-SQL
