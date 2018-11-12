@@ -28,7 +28,7 @@ class Student
   end 
   
   def self.create(name:, grade:)
-    self
+    self.new(name, grade).tap do |s|
     
   def save
     sql = <<-SQL
