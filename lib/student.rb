@@ -9,6 +9,7 @@ class Student
     @grade = grade
   end 
   
-  
+  def save 
+    
   
 end
