@@ -15,8 +15,8 @@ class Student
           id INTEGER PRIMARY KEY,
           name TEXT,
           grade INTEGER 
-        )
-        SQL
+          )
+          SQL
   end 
     
   def save
